@@ -1,0 +1,26 @@
+USE_SIN_32 is NOT defined
+started benchmark
+10M sinf took 19494633 μs
+10M sin16 took 1887219 μs
+10M cos16 took 1887154 μs
+65K sin - sin16 took 227703 μs, maxError = 225.810547, 6891.401367 parts per million
+65K cos - cos16 took 227091 μs, maxError = 225.810547, 6891.401367 parts per million
+10M sqrt took 45237340 μs
+10M sqrtApprox took 1299962 μs
+10M sqrtInvApprox took 1383791 μs
+
+USE_SIN_32 is defined
+started benchmark
+10M sinf took 19243012 μs
+10M sin32 took 587068 μs
+10M cos32 took 587061 μs
+10M sin16 took 796720 μs
+10M cos16 took 796721 μs
+10M sinArray took 335458 μs
+65K sin - sin16 took 222482 μs, maxError = 3.646484, 111.285271 parts per million
+65K cos - cos16 took 222450 μs, maxError = 3.646484, 111.285271 parts per million
+10M sin - sin32 took 37100157 μs, maxError = 175419.000000, 81.688332 parts per million
+10M cos - cos32 took 37282438 μs, maxError = 175428.000000, 81.692528 parts per million
+10M sqrt took 44910967 μs
+10M sqrtApprox took 1216104 μs
+10M sqrtInvApprox took 1090276 μs
